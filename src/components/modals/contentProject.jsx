@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import { Icon } from "../icons";
 
 export const ContentProject = ({ project }) => (
