@@ -2,7 +2,7 @@ export const HeroSection = () => {
   return (
     <>
       <section className="px-4 py-10 bg-lght-primary dark:bg-drk-primary">
-        <div className="container flex flex-wrap-reverse sm:flex-nowrap justify-center items-center gap-6 mx-auto">
+        <div className="container flex flex-wrap-reverse md:flex-nowrap justify-center items-center gap-6 mx-auto">
           <div className="container flex flex-col justify-center items-center gap-4">
             <h1 className="font-kalam text-center font-bold text-5xl text-pop-primary">
               Guylène Dietrich
@@ -11,7 +11,7 @@ export const HeroSection = () => {
               Intégratrice web junior
             </h2>
             <div className="container p-4 sm:p-8">
-              <p className="font-prompt text-lg text-justify text-drk-primary dark:text-lght-secondary">
+              <p className="font-prompt lg:text-lg text-justify  text-drk-primary dark:text-lght-secondary">
                 Passionnée par le développement web, je conçois des interfaces
                 modernes et accessibles, alliant design et performance.
                 Intégratrice web junior, je transforme des maquettes en
@@ -24,6 +24,7 @@ export const HeroSection = () => {
           </div>
           <div className="container flex justify-center items-center">
             <img
+              className="w-md lg:w-lg"
               src="https://xbnomorjhkjgbnbfhmzq.supabase.co/storage/v1/object/public/icon-illustration/DevPics/devLightS.svg"
               alt="Développeuse web"
             />
