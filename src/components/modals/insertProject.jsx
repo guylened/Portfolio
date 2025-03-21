@@ -16,6 +16,12 @@ export const ContentProject = ({ project }) => (
           <p className="font-prompt text-justify text-drk-secondary dark:text-lght-secondary">
             {project.description}
           </p>
+          {project.training_project === true && (
+            <p className="font-prompt font-medium text-drk-primary dark:text-lght-primary">
+              Ce projet a été réalisé dans le cadre de la formation "Intégrateur
+              web" d'OpenClassrooms
+            </p>
+          )}
         </div>
         <div className="flex flex-wrap items-center justify-center gap-4 lg:gap-8 ">
           <a
