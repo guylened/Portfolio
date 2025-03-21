@@ -2,7 +2,7 @@ import { useEffect, useState, useCallback } from "react";
 import { ProjectCard } from "../components/projectCard";
 import { supabase } from "../supabaseClient.js";
 import { Modal } from "../components/modals/modal";
-import { ContentProject } from "../components/modals/ContentProject.jsx";
+import { ContentProject } from "../components/modals/insertProject.jsx";
 
 const PER_PAGE = 4;
 
