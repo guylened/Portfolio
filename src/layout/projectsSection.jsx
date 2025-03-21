@@ -32,6 +32,15 @@ export const ProjectsSection = () => {
     fetchData();
   }, [fetchData]);
 
+  useEffect(() => {
+    if (currentPage > 1) {
+      const section = document.getElementById("Projects");
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [currentPage]);
+
   const pageNumber = Math.ceil(totalProjects / PER_PAGE);
 
   return (

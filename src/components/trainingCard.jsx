@@ -1,4 +1,5 @@
 import { Button } from "../components/buttons";
+import { Icon } from "./icons";
 
 export const TrainingCard = ({ training }) => {
   return (
@@ -8,9 +9,10 @@ export const TrainingCard = ({ training }) => {
           <a
             href={training.school_link}
             aria-label="lien vers les lieux de formations"
-            className="font-rubik font-medium text-lg text-lght-primary hover:text-lght-secondary"
+            className=" flex gap-2 font-rubik font-medium text-lg text-lght-primary hover:text-lght-secondary"
             target="_blank"
           >
+            <Icon name="arrow-up" />
             {training.school_name}
           </a>
           <h3 className="font-rubik font-medium text-lg text-lght-primary">

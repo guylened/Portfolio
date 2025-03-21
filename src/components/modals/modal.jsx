@@ -15,7 +15,7 @@ export const Modal = ({ opened, Content, children }) => {
           onClick={() => setIsOpened(false)}
         >
           <div
-            className="relative max-w-2xl w-full mx-8 p-6 pt-14 bg-lght-primary dark:bg-drk-primary rounded-lg shadow-lg transition-transform transform scale-95"
+            className="relative w-full max-w-2xl mx-4 md:mx-8 p-6 pt-14 bg-lght-primary dark:bg-drk-primary rounded-lg shadow-lg transition-transform transform scale-95 max-h-[90vh] overflow-hidden"
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -26,8 +26,7 @@ export const Modal = ({ opened, Content, children }) => {
             >
               <Icon name="close" />
             </button>
-
-            {Content}
+            <div className="overflow-y-auto max-h-[75vh] px-4">{Content}</div>
           </div>
         </div>
       )}

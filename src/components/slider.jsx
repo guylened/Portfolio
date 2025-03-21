@@ -82,7 +82,6 @@ export const Slider = ({ news }) => {
           </p>
           <p className="font-prompt text-lght-primary">{news[index].author}</p>
           <a
-            className="hover:bg-drk-secondary"
             aria-label="lien web vers l'élément présenté"
             href={news[index].link}
             target="_blank"

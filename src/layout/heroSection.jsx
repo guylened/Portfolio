@@ -10,7 +10,7 @@ export const HeroSection = () => {
             <h2 className="font-kalam text-center font-bold text-4xl text-drk-primary  dark:text-lght-secondary">
               Intégratrice web junior
             </h2>
-            <div className="p-4 sm:p-8">
+            <div className="container p-4 sm:p-8">
               <p className="font-prompt text-lg text-justify text-drk-primary dark:text-lght-secondary">
                 Passionnée par le développement web, je conçois des interfaces
                 modernes et accessibles, alliant design et performance.
