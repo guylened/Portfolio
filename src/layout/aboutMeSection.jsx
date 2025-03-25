@@ -7,7 +7,7 @@ export const AboutMeSection = () => {
       >
         <div className="container flex flex-col justify-center items-center gap-6 mx-auto">
           <h2 className="font-kalam font-semibold text-4xl text-center text-pop-primary dark:text-lght-primary">
-            A propos de moi
+            A propos
           </h2>
           <p className="font-prompt text-justify text-drk-primary dark:text-lght-secondary">
             J’ai toujours aimé apprendre et explorer de nouvelles compétences,
