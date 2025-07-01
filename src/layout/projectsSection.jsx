@@ -18,6 +18,7 @@ export const ProjectsSection = () => {
     const { data, error, count } = await supabase
       .from("Projects")
       .select("*", { count: "exact" })
+      .order("created_at", { ascending: false })
       .range(startIndex, endIndex);
 
     if (error) {
